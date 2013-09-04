@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  catalog_id: 
+  name: MyString
+  price_cents: 1
+
+two:
+  catalog_id: 
+  name: MyString
+  price_cents: 1
