@@ -2,6 +2,7 @@ PATH
   remote: .
   specs:
     basic (0.0.1)
+      haml-rails
       inherited_resources
       rails (~> 4.0.0)
 
@@ -36,6 +37,13 @@ GEM
     atomic (1.1.13)
     builder (3.1.4)
     erubis (2.7.0)
+    haml (4.0.3)
+      tilt
+    haml-rails (0.4)
+      actionpack (>= 3.1, < 4.1)
+      activesupport (>= 3.1, < 4.1)
+      haml (>= 3.1, < 4.1)
+      railties (>= 3.1, < 4.1)
     has_scope (0.6.0.rc)
       actionpack (>= 3.2, < 5)
       activesupport (>= 3.2, < 5)
@@ -47,7 +55,7 @@ GEM
     mail (2.5.4)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
-    mime-types (1.24)
+    mime-types (1.25)
     minitest (4.7.5)
     multi_json (1.7.9)
     polyglot (0.3.3)

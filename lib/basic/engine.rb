@@ -1,4 +1,5 @@
 require 'inherited_resources'
+require 'haml-rails'
 
 module Basic
   class Engine < ::Rails::Engine
